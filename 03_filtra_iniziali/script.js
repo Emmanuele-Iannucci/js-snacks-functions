@@ -10,10 +10,20 @@ function filtraNomiConIniziale(array, lettera) {
     for (let i = 0; i < array.length; i++) {
         const nome = array[i];
         // prendo ogni elemento 
+
+        const iniziale = nome[0]
+        if (iniziale === lettera) {
+            risultati.push(nome)
+
+        }
     }
+
+    return risultati
 }
 // Invoca la funzione qui e stampa il risultato in console
 
-return 
+
+
+
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
