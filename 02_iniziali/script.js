@@ -9,7 +9,7 @@ for (let i = 0; i < names.length; i++) {
     const iniziale = names[i][0];                      
     /*Prendo il nome corrente dell’array (names[i]). 
     Poi prendo la prima lettera del nome usando [0], cioè il carattere in posizione 0.
-    Salvo questa lettera nella variabile iniziale */
+    Salvo questa lettera nella variabile const iniziale */
     initials.push(iniziale);
 }
 
