@@ -11,6 +11,9 @@ function salutaUtente(nome) {
 
 // Invoca la funzione qui e stampa il risultato in console
 
+const saluta = salutaUtente (userName)
+
+console.log (saluta)
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
