@@ -21,7 +21,8 @@ function filtraNomiConIniziale(array, lettera) {
     return risultati
 }
 // Invoca la funzione qui e stampa il risultato in console
-
+const risultato = filtraNomiConIniziale(names, "L");
+console.log(risultato)
 
 
 
