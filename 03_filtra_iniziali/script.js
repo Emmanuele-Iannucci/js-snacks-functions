@@ -4,11 +4,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-function filtraNomiConIniziale(array, lettera) {
+function filtraNomiConIniziale(elements, lettera) {
     const risultati = [];
 
-    for (let i = 0; i < array.length; i++) {
-        const nome = array[i];
+    for (let i = 0; i < elements.length; i++) {
+        const nome = elements[i];
         // prendo ogni elemento 
 
         const iniziale = nome[0]
