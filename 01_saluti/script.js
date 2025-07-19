@@ -11,9 +11,9 @@ function salutaUtente(nome) {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-let saluta = salutaUtente (userName)
+let saluta = salutaUtente(userName)
 
-console.log (saluta)
+console.log(saluta)
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
