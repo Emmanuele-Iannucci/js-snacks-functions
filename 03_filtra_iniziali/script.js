@@ -12,7 +12,7 @@ function filtraNomiConIniziale(elements, lettera) {
         // prendo ogni elemento 
 
         const iniziale = nome[0]
-        if (iniziale === lettera) {
+        if (iniziale.toLowerCase() === lettera.toLowerCase()) {
             risultati.push(nome)
 
         }
@@ -21,7 +21,7 @@ function filtraNomiConIniziale(elements, lettera) {
     return risultati
 }
 // Invoca la funzione qui e stampa il risultato in console
-const risultato = filtraNomiConIniziale(names, "L");
+const risultato = filtraNomiConIniziale(names, "l");
 console.log(risultato)
 
 
